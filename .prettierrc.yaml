@@ -1,0 +1,41 @@
+trailingComma: "es5"
+tabWidth: 4
+semi: false
+singleQuote: true
+overrides:
+  - files: "*.md"
+    options:
+      bracketSameLine: false
+      bracketSpacing: true
+      cursorOffset: -1
+      experimentalTernaries: false
+      insertPragma: false
+      jsxSingleQuote: false
+      printWidth: 120
+      rangeEnd: null
+      rangeStart: 0
+      requirePragma: false
+      semi: true
+      singleAttributePerLine: false
+      singleQuote: false
+      tabWidth: 2
+      useTabs: false
+      vueIndentScriptAndStyle: false
+  - files: ["*.yaml"]
+    options:
+      bracketSameLine: false
+      bracketSpacing: true
+      cursorOffset: -1
+      experimentalTernaries: false
+      insertPragma: false
+      jsxSingleQuote: false
+      printWidth: 120
+      rangeEnd: null
+      rangeStart: 0
+      requirePragma: false
+      semi: true
+      singleAttributePerLine: false
+      singleQuote: false
+      tabWidth: 2
+      useTabs: false
+      vueIndentScriptAndStyle: false
