@@ -39,3 +39,21 @@ overrides:
       tabWidth: 2
       useTabs: false
       vueIndentScriptAndStyle: false
+  - files: ["*.ts", "*.js"]
+    options:
+      bracketSameLine: false
+      bracketSpacing: true
+      cursorOffset: -1
+      experimentalTernaries: false
+      insertPragma: false
+      jsxSingleQuote: false
+      printWidth: 120
+      rangeEnd: null
+      rangeStart: 0
+      requirePragma: false
+      semi: true
+      singleAttributePerLine: false
+      singleQuote: true
+      tabWidth: 2
+      useTabs: false
+      vueIndentScriptAndStyle: false
