@@ -13,7 +13,7 @@ This repo requires a build to capture between tests.
 
 ## References
 
-Template taken from [here](https://github.com/chriswells0/node-typescript-template).
+I based this project on the Node Typescript Template, taken from [here](https://github.com/chriswells0/node-typescript-template).
 
 ### Original Rules
 
