@@ -6,10 +6,10 @@
 
 This repo requires a build to capture between tests.
 
-To build: `npm run build`
-To test: `npm run test`
-To run coverage: `npm run cover`
-To check coverage: `npm run cover:check`
+- To build: `npm run build`
+- To test: `npm run test`
+- To run coverage: `npm run cover`
+- To check coverage: `npm run cover:check`
 
 ## References
 
