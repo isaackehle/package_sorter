@@ -66,3 +66,17 @@ describe('Special cases', () => {
     expect(out).to.equal('SPECIAL');
   });
 });
+
+describe('Rejected cases', () => {
+  it('At thresholds', () => {
+    const out = sort(100, 100, 100, 20);
+
+    expect(out).to.equal('REJECTED');
+  });
+
+  it('Above thresholds', () => {
+    const out = sort(150, 100, 100, 25);
+
+    expect(out).to.equal('REJECTED');
+  });
+});
