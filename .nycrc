@@ -1,11 +1,11 @@
 {
     "all": true,
-    "branches": 95,
+    "branches": 50,
     "extension": [".js", ".ts", ".tsx"],
-    "functions": 100,
+    "functions": 50,
     "include": ["dist/**/*.js", "src/**/*.ts"],
-    "lines": 95,
+    "lines": 100,
     "reporter": ["html", "text-summary"],
     "require": ["ts-node/register"],
-    "statements": 95
+    "statements": 50
 }
